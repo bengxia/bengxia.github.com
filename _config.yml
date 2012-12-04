@@ -22,6 +22,6 @@ maruku:
   png_dir:    images/latex
   png_url:    /images/latex
 
- rdiscount:
-   extensions: []
+rdiscount:
+  extensions: []
 
