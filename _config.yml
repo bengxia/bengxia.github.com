@@ -17,7 +17,7 @@ author :
   email : bengxia@gmail.com
   github : bengxia
   twitter : bengxia
-  feedburner : bengxia
+  feedburner : BengxiaGithub
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -101,10 +101,10 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-36679635-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
+    #getclicky :
+    #  site_id : 
+    #mixpanel :
+    #    token : '_MIXPANEL_TOKEN_'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
