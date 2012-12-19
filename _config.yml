@@ -13,7 +13,7 @@ markdown: rdiscount
 title : BENGXIA @ GitHub
 tagline: bengxia at github
 author :
-  name : wensheng cao
+  name : BENGXIA
   email : bengxia@gmail.com
   github : bengxia
   twitter : bengxia
@@ -74,6 +74,7 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
+  books_path : /books.html
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.

@@ -1,0 +1,89 @@
+---
+layout: page
+title: ECMA-262 6（草案） 中文版
+chapters:
+- [Scope        , 适用范围]
+- [Conformance  , 一致性说明]
+- [Normative references, 规范及标准引用]
+- [Overview     , 概述]
+- [Web Scripting, Web脚本]
+- [Notational Convertions, 记法约定]
+- [Source text  , 源代码文本]
+- [Lexical Conventions, 词法约定]
+- [Types        , 类型]
+- [Abstract Operations, 抽象运算]
+- [Executable Code and Execution Contexts, 执行代码与环境]
+- [Expressions  , 表达式]
+- [Statements and Declarations, 语句与申明]
+- [Functions and Generators, 函数与生成器]
+- [Scripts and Modules, 脚本与模块]
+- [Standard Built-in ECMAScript Objects, 标准的内建ECMASCript对象]
+- [Errors       , 错误处理]
+- [Annex A(informative) Grammar Summary, 附录A（参考） 语法汇总]
+- [Annex B(normative) Additional ECMAScript Features for Web Browsers, 附录B（规范） ECMAScript针对Web浏览器的额外特性]
+- [Annex C(informative) The Strict Mode of ECMAScript, 附录C（参考） ECMAScript的严格模式]
+- [Annex D(informative) Corrections and Clarifications with Possible Compatibility Impact, 附录D（参考） 关于可能导致兼容性冲突的纠正和澄清]
+- [Annex E(informative) Additions and Changes that Introduce Incompatibilities with Prior Editions, 附录E（参考） 与早先版本不兼容的增加和修改]
+- [Annex F(informative) Static Semantic Rule Cross Reference, 附录F（参考） 交叉引用的静态语义规则]
+- [Scrap Heap, 废弃内容]
+---
+
+
+<p>
+	<span class="STidentifier">ECMA-262 标准</span>
+	<br/>
+	<br/>
+	<span class="STsubtitle">ECMAScript 语言规范</span> 
+	<br/>
+	<br/>
+	<span class="STedition"> 版本：6（Draft） (2012年11月22日)</span>
+</p>
+<hr/>
+<section>
+  <h2>版权申明</h2>
+
+  <p>Copyright © 2012 Ecma International</p>
+
+  <ul>
+  <li style="list-style-type: none;">Ecma International</li>
+
+  <li style="list-style-type: none;">Rue du Rhone 114</li>
+
+  <li style="list-style-type: none;">CH-1204 Geneva</li>
+
+  <li style="list-style-type: none;">电话: +41 22 849 6000</li>
+
+  <li style="list-style-type: none;">传真: +41 22 849 6001</li>
+
+  <li style="list-style-type: none;">网站: <a href="http://www.ecma-international.org">http://www.ecma-international.org</a></li>
+  </ul>
+
+  <p>This Ecma Standard is based on several originating technologies, the most well known being JavaScript (Netscape) and JScript (Microsoft). The language was invented by Brendan Eich at Netscape and first appeared in that company’s Navigator 2.0 browser. It has appeared in all subsequent browsers from Netscape and in all browsers from Microsoft starting with Internet Explorer 3.0.
+The development of this Standard started in November 1996. The first edition of this Ecma Standard was adopted by the Ecma General Assembly of June 1997.
+That Ecma Standard was submitted to ISO/IEC JTC 1 for adoption under the fast-track procedure, and approved as international standard ISO/IEC 16262, in April 1998. The Ecma General Assembly of June 1998 approved the second edition of ECMA-262 to keep it fully aligned with ISO/IEC 16262. Changes between the first and the second edition are editorial in nature.
+The third edition of the Standard introduced powerful regular expressions, better string handling, new control statements, try/catch exception handling, tighter definition of errors, formatting for numeric output and minor changes in anticipation of forthcoming internationalisation facilities and future language growth. The third edition of the ECMAScript standard was adopted by the Ecma General Assembly of December 1999 and published as ISO/IEC 16262:2002 in June 2002.
+Since publication of the third edition, ECMAScript has achieved massive adoption in conjunction with the World Wide Web where it has become the programming language that is supported by essentially all web browsers. Significant work was done to develop a fourth edition of ECMAScript. Although that work was not completed and not published1 as the fourth edition of ECMAScript, it informs continuing evolution of the language. The fifth edition of ECMAScript (published as ECMA-262 5th edition) codifies de facto interpretations of the language specification that have become common among browser implementations and adds support for new features that have emerged since the publication of the third edition. Such features include accessor properties, reflective creation and inspection of objects, program control of property attributes, additional array manipulation functions, support for the JSON object encoding format, and a strict mode that provides enhanced error checking and program security.
+The edition 5.1 of the ECMAScript Standard has been fully aligned with the third edition of the international standard ISO/IEC 16262:2011.
+This present sixth edition of the Standard.........
+ECMAScript is a vibrant language and the evolution of the language is not complete. Significant technical enhancement will continue with future editions of this specification.
+This Ecma Standard has been adopted by the General Assembly of <month> <year>.</p>
+
+  <p>"DISCLAIMER
+This draft document may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published, and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this section are included on all such copies and derivative works. However, this document itself may not be modified in any way, including by removing the copyright notice or references to Ecma International, except as needed for the purpose of developing any document or deliverable produced by Ecma International.
+This disclaimer is valid only prior to final version of this document. After approval all rights on the standard are reserved by Ecma International.
+The limited permissions are granted through the standardization phase and will not be revoked by Ecma International or its successors or assigns during this time.
+This document and the information contained herein is provided on an "AS IS" basis and ECMA INTERNATIONAL DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION HEREIN WILL NOT INFRINGE ANY OWNERSHIP RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE."</p>
+</section>
+<hr/>
+<ol id="chapters">
+  {% for chapter in page.chapters %}
+    {% capture url %}/chapters/{{ chapter[0] | replace: ' ', '_' | downcase }}{% endcapture %}
+    {% capture indexurl %}{{ url }}/index.html{% endcapture %}
+
+    <li class="chapter">
+    <h2><a href="{{ indexurl }}">{{ chapter[1] }}</a></h2>
+    </li>
+
+  {% endfor %}
+</ol>
+<hr/>

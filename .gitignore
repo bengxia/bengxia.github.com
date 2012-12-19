@@ -1,3 +1,4 @@
 _site
 *.swp
 bengxia_github.sublime*
+.DS_Store

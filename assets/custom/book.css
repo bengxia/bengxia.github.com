@@ -1,0 +1,125 @@
+#browser {
+  overflow: auto;
+  position: relative;
+  margin: 0;
+}
+#results {
+  margin: 0 80px 0 340px;
+}
+#results h2 {
+  padding: 30px 0;
+}
+#results .document {
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 200px;
+  height: 280px;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.15);
+}
+#results .document:hover {
+  opacity: 1;
+  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9), inset 0px 0px 1px rgba(255, 255, 255, 0.15);
+  -moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9), inset 0px 0px 1px rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.9), inset 0px 0px 1px rgba(255, 255, 255, 0.15);
+}
+#results .document .image {
+  overflow: hidden;
+  height: 120px;
+}
+#results .document .title {
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FreeSerif, serif;
+  font-weight: lighter;
+  font-style: normal;
+  padding: 10px 0;
+  font-size: 18px;
+}
+#results .document .title a {
+  color: #333;
+}
+#results .document .author {
+  font-size: 14px;
+  color: #777;
+}
+#results .document .updated-at {
+  font-size: 11px;
+  padding-right: 20px;
+  position: absolute;
+  bottom: 5px;
+  color: #A2AAAA;
+}
+#results a {
+  border: none;
+}
+
+
+
+.STidentifier {
+  font : bold normal 2em/normal Verdana, Arial, Helvetica, sans-serif;
+  height : auto;
+  letter-spacing : normal;
+  text-align : left;
+  text-decoration : none;
+  text-indent : 0px;
+  text-transform : none;
+  vertical-align : baseline;
+  white-space : normal;
+  width : auto;
+  word-spacing : normal;
+  color: #ff6600;
+
+}
+
+.STsubtitle {
+  font : italic normal 1.67em/normal Verdana, Arial, Helvetica, sans-serif;
+  height : auto;
+  letter-spacing : normal;
+  text-align : left;
+  text-decoration : none;
+  text-indent : 0px;
+  text-transform : none;
+  vertical-align : baseline;
+  white-space : normal;
+  width : auto;
+  word-spacing : normal;
+  color: #ff6600;
+
+} 
+
+.StapprovalDate {
+  font : italic normal 1.22em/normal Verdana, Arial, Helvetica, sans-serif;
+  height : auto;
+  letter-spacing : normal;
+  text-align : left;
+  text-decoration : none;
+  text-indent : 0px;
+  text-transform : none;
+  vertical-align : baseline;
+  white-space : normal;
+  width : auto;
+  word-spacing : normal;
+  color: #ff6600;
+
+}
+
+.STedition  {
+  font : italic normal 1.22em/normal Verdana, Arial, Helvetica, sans-serif;
+  height : auto;
+  letter-spacing : normal;
+  text-align : left;
+  text-decoration : none;
+  text-indent : 0px;
+  text-transform : none;
+  vertical-align : baseline;
+  white-space : normal;
+  width : auto;
+  word-spacing : normal;
+  color: #ff6600;
+
+}
